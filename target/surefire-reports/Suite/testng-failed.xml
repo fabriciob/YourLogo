@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [Suite]" verbose="0">
+  <test parallel="none" name="Validando funcionalidades(failed)">
+    <classes>
+      <class name="suitetest.SearchSuiteTest">
+        <methods>
+          <include name="validaResultadosDaBusca"/>
+          <include name="iniciaDriver"/>
+          <include name="fecharNavegadores"/>
+        </methods>
+      </class> <!-- suitetest.SearchSuiteTest -->
+      <class name="suitetest.SignIn_RegisterSuiteTest">
+        <methods>
+          <include name="validaCadastro"/>
+          <include name="fecharNavegadores"/>
+          <include name="iniciaDriver"/>
+        </methods>
+      </class> <!-- suitetest.SignIn_RegisterSuiteTest -->
+      <class name="suitetest.CartSuiteTest">
+        <methods>
+          <include name="fecharNavegadores"/>
+          <include name="iniciaDriver"/>
+        </methods>
+      </class> <!-- suitetest.CartSuiteTest -->
+    </classes>
+  </test> <!-- Validando funcionalidades(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" parallel="none">
+  <test name="Validando funcionalidades(failed)" parallel="none">
+    <classes>
+      <class name="suitetest.SignIn_RegisterSuiteTest">
+        <methods>
+          <include name="validaCadastro"/>
+          <include name="fecharNavegadores"/>
+          <include name="iniciaDriver"/>
+        </methods>
+      </class> <!-- suitetest.SignIn_RegisterSuiteTest -->
+    </classes>
+  </test> <!-- Validando funcionalidades(failed) -->
+</suite> <!-- Failed suite [Suite] -->
