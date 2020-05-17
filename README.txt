@@ -20,7 +20,7 @@ Os testes foram implementados e executados em:
 
 Para rodar os testes:
 
-1. Clone/Download o projeto: https://github.com/MaBlaGit/YourLogoAutomated.git
+1. Clone/Download o projeto: https://github.com/fabriciob/YourLogo.git
 
 2. Instale o Maven seguindo os passos em: https://maven.apache.org/install.html
 
